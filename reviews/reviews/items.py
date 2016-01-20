@@ -6,12 +6,11 @@
 # http://doc.scrapy.org/en/latest/topics/items.html
 from scrapy.item import Item, Field
 
+class EventItem(Item):
 
-class ReviewsItem(Item):
-    # define the fields for your item here like:
-    # name = scrapy.Field()
     title = Field()
     url = Field()
-    review_body = Field()
-    author = Field()
-    meta_data = Field()
+    datetime_range = Field()
+    cpd_credits = Field()
+    event_venue = Field()
+    description = Field()

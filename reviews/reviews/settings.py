@@ -18,7 +18,7 @@ ITEM_PIPELINES = ['reviews.pipelines.MongoDBPipeline', ]
 MONGODB_SERVER = "localhost"
 MONGODB_PORT = 27017
 MONGODB_DB = "bricks"
-MONGODB_COLLECTION = "reviews"
+MONGODB_COLLECTION = "rcplondon"
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'reviews (+http://www.yourdomain.com)'
 

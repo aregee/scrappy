@@ -28,6 +28,7 @@ class MongoDBPipeline(object):
 
     def process_item(self, item, spider):
         valid = True
+        print "roocessing shit"
         for data in item:
             if not data:
                 valid = False

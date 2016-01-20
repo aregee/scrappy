@@ -8,20 +8,11 @@
 from scrapy.item import Item, Field
 
 
-class BricksItem(Item):
+class MedMeetingsList(Item):
     title = Field()
     url = Field()
-    review_body = Field()
-    locality = Field()
-
-class BrickReviewItem(Item):
-    title = Field()
-    url = Field()
-    average_rate = Field()
-    locality = Field()
-    projects_available = Field()
-    recomended_for = Field()
-    properties_available = Field()
-    ratings = Field()
-    review_body = Field()
-    meta_data = Field()
+    next_date = Field()
+    provider = Field()
+    course_duration = Field()
+    course_type = Field()
+    course_description = Field()
